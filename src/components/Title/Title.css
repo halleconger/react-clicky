@@ -1,0 +1,8 @@
+.jumbotron {
+    background-image: url(../../images/concrete-texture.png);
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #020242;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+}

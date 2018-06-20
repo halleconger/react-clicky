@@ -1,0 +1,22 @@
+.navbar {
+    background-image: url(../../images/concrete_wall.png);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#score {
+    text-align: right;
+    font-size: 30px;
+}
+
+#topScore {
+    text-align: right;
+    font-size: 30px;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 30px;
+}

@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Miranda Bailey",
+        "image": "https://upload.wikimedia.org/wikipedia/en/8/87/Dr._Miranda_Bailey.jpg",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "name": "Owen Hunt",
+        "image": "https://upload.wikimedia.org/wikipedia/en/6/60/Dr._Owen_Hunt.jpg",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "name": "Derek Shepherd",
+        "image": "https://i.pinimg.com/474x/5b/54/80/5b548038f8abb0ac4049dd3ea9a0ea21--greys-anatomy-season--meredith-grey.jpg",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "name": "Richard Webber",
+        "image": "https://upload.wikimedia.org/wikipedia/en/3/34/Dr._Richard_Webber.jpg",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "name": "Amelia Shepherd",
+        "image": "https://upload.wikimedia.org/wikipedia/en/e/e9/Amelia_s11.jpg",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "name": "Jackson Avery",
+        "image": "https://upload.wikimedia.org/wikipedia/en/4/45/Jesse-williams-greys.jpg",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "name": "Meredith Grey",
+        "image": "https://upload.wikimedia.org/wikipedia/en/5/53/Greys-Anatomy-Season-7-Promo-9.jpg",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "name": "Alex Karev",
+        "image": "https://upload.wikimedia.org/wikipedia/en/f/f3/Dr._Alex_Karev.jpg",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "name": "Maggie Pierce",
+        "image": "https://upload.wikimedia.org/wikipedia/en/a/a3/MaggiePierce.jpg",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "name": "Arizona Robbins",
+        "image": "https://upload.wikimedia.org/wikipedia/en/d/d3/Dr._Arizona_Robbins.jpg",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "name": "April Kepner",
+        "image": "http://greysanatomy.org/wp-content/uploads/2013/05/april.jpg",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "name": "Teddy Altman",
+        "image": "https://i.pinimg.com/originals/16/98/99/1698999e9ab2190a4538ce690adf6072.jpg",
+        "clicked": false
+    }
+]
