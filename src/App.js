@@ -15,9 +15,21 @@ class App extends Component {
     clicked: []
   }
 
-  // A function to shuffle the images
-  // shuffleImagesArray = imageArray => {
-  // }
+  shuffleImagesArray = array => {
+    let currentIndex = array.length
+    let randomIndex
+    let itemAtIndex
+
+    while (currentIndex > 0) {
+      randomIndex = Math.floor(Math.random() * currentIndex)
+      itemAtIndex = array[randomIndex]
+
+      currentIndex--
+      array[randomIndex] = array[currentIndex]
+      array[currentIndex] = itemAtIndex
+    }
+    return array;
+  }
 
   friendClick = id => {
     console.log("CLICKED")
@@ -42,7 +54,8 @@ class App extends Component {
       alert("Congrats, You Won!")
     } else if (userScore >= this.state.topScore) {
       this.setState({
-        topScore: userScore
+        topScore: userScore,
+        greys: this.shuffleImagesArray(this.state.greys)
       })
     }
 
@@ -73,7 +86,7 @@ class App extends Component {
             key={greys.id}
             id={greys.id}
             image={greys.image}
-            // shuffleImagesArray={this.shuffleImagesArray}
+            shuffleImagesArray={this.shuffleImagesArray}
             friendClick={this.friendClick}
             trackScore={this.trackScore}
             resetGame={this.resetGame}
@@ -83,9 +96,6 @@ class App extends Component {
       </Wrapper>
     );
   }
-
-
-
 
 }
 
