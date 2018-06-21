@@ -37,7 +37,8 @@ class App extends Component {
     if (this.state.clicked.indexOf(id) === -1) {
       this.trackScore();
       this.setState({
-        clicked: this.state.clicked.concat(id)
+        clicked: this.state.clicked.concat(id),
+        greys: this.shuffleImagesArray(this.state.greys)
       })
     } else {
       this.resetGame();
@@ -55,7 +56,7 @@ class App extends Component {
     } else if (userScore >= this.state.topScore) {
       this.setState({
         topScore: userScore,
-        greys: this.shuffleImagesArray(this.state.greys)
+        // greys: this.shuffleImagesArray(this.state.greys)
       })
     }
 
